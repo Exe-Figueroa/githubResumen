@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62,5%;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.subtitulos1 {
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    margin: 1rem;
+    font-size: 1,6rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    
+}
+.lista {
+    display: flex;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 60vh;
+}
+.lista li {
+    margin: 0.3rem;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 0.7rem;
+    width: 100%;
+}
