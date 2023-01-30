@@ -23,7 +23,7 @@
             </ul>
         </div>
         <div class="subtitulos1">
-            <h3>Primeros Comandos en Git</h3>
+            <h3>Navegando entre versiones</h3>
             <ul class="lista">
                 <li>git log: muestra el historial de versiones o commits que se realizaron en el archivo.</li>
                 <li>git show: muestra que cambios se realizaron en cada una de las versiones.</li>
@@ -33,7 +33,16 @@
             </ul>
         </div>
         <div class="subtitulos1">
-            
+            <h3>Comando reset y remove</h3>
+            <ul class="lista">
+                <li>GIT RESET: es un comando peligroso que elimina todo sin posibilidad de volver a recuperar lo perdido y debe ser utilizado en caso de emergencia unicamente.</li>
+                <li>git reset --hard: Borra absolutamente todo, tanto en el directorio como en el repositorio.</li>
+                <li>git reset --soft: boora todo el historial y registro de git pero conserva los cambios del staging.</li>
+                
+                <li>git reset HEAD: elimina los cambios del área de staging para que estos no se guarden con el commit.</li>
+                <li>git rm --cached: elimina los cambios en staging pero los mantiene en el disco duro.</li>
+                <li>git rm --force: elimina los cambios en git y en directorio</li>
+            </ul>
         </div>
     </main>
 </body>

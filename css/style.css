@@ -22,10 +22,7 @@ main {
     flex-wrap: wrap;
 }
 .subtitulos1 {
-    width: 30rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 30rem; 
     margin: 0.5rem;
 }
 h3 {
@@ -52,4 +49,12 @@ h3 {
     border-radius: 10px;
     padding: 0.7rem;
     width: 100%;
+}
+span {
+    margin: 0.3rem;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 0.7rem;
+    width: 100%;
+    height: fit-content;
 }
