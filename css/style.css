@@ -22,7 +22,7 @@ main {
     flex-wrap: wrap;
 }
 .subtitulos1 {
-    width: 30rem; 
+    width: 28rem; 
     margin: 0.5rem;
 }
 h3 {
@@ -41,7 +41,7 @@ h3 {
     flex-wrap: wrap;
     padding: 1rem;
     border-radius: 10px;
-    height: 60vh;
+    height: 62vh;
 }
 .lista li {
     margin: 0.3rem;
