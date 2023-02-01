@@ -56,6 +56,66 @@
 
             </ul>
         </div>
+        <div class="subtitulos1">
+                <h3>Intro a los Branchs de GIT</h3>
+                <ul class="lista">
+                    <li>git commit -am +comentario: hace un add y un commit de los archivos (con un git add . ejecutado anteriormente).</li>
+                    <li>git branch +name: crea una rama con el nombre asignado.</li>
+                    <li>git checkout +branch: mueve el head desde el máster a la rama asignada.</li>
+                    <li>git checkout -b +branch: combina los dos conceptos anteriores</li>
+                    <li>git checkout +branch -o-id -códigoDelCommit: te mueve al commit especificado sin borrar los datos posteriores del tag seleccionado.</li>
+
+
+                </ul>
+        </div>
+        <div class="subtitulos1">
+            <h3>Fusión de branchs con git merge</h3>
+            <ol class="lista">
+                <li>Colocarse en el master: para que la rama secundaria no se vuelva la principal. </li>
+                <li>Ejecutar comadno: git merge +branch +"comentario"</li>
+                <li>Ejecutargit branch en caso de no conocer los nombres de las ramas.</li>
+
+
+            </ol>
+    </div>
+    <div class="subtitulos1">
+        <h3>GitHub</h3>
+        <ul class="lista">
+            <li>A diferencia de Git este es un sitio web.</li>
+            <li>Tiene un súper servidor de Git.</li>
+            <li>Se pueden crear y clonar repos, y compartirlos con otras personas.</li>
+            <li>Es como la red social de los programadores.</li>
+        </ul>
+    </div>
+    <div class="subtitulos1">
+        <h3>Creando un repo remoto en GitHub</h3>
+        <ol class="lista">
+            <li>Colocar nombre del repo.</li>
+            <li>Colocarle una descripción.</li>
+            <li>Inicializarlo con un Readme.md ya que esta es una buena práctica y permite redactar un resumen de tu proyecto.</li>
+            <li>Declarar si es público o privado.</li>
+            <li>En clone copiar url. ssh o html</li>
+            <li>En la terminal de nuestro repo local agregar repo remoto.</li>
+            <li>Usar Comando: git remote add origin +url.</li>
+            <li>Realizar git pull origin master para trarer todo lo del repo remoto al local.</li>
+            <li>En caso de que el merge no se produzca colocar: git pull origin master --allow-unrelated-histories para forzar la fusión.</li>
+        </ol>
+    </div>
+    <div class="subtitulos1">
+        <h3>Configurando llave ssh local</h3>
+        <ul class="lista">
+            <li>git config -l: sirve para ver el actual email.</li>
+            <li>gi config --global user email +"email vinculado al GitHub".</li>
+            <li>Ejecutar ssh-keygen -t rsa -b 4096 -C "email"</li>
+            <li>Aceptar ubicación.</li>
+            <li>Crear passphrase</li>
+            <li>Ejecutar: eval "$(ssh-agent-s)"</li>
+            <li>Ejecutar: vim config  --En caso de no tener carpeta config en el repo--</li>
+            <li>Ir al Home con cd</li>
+            <li>Ejecutar: ssh-add -k ~/.ssh/id_rsa</li>
+        </ul>
+
+    </div>
     </main>
 </body>
 </html>

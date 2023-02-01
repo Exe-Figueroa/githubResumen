@@ -41,7 +41,7 @@ h3 {
     flex-wrap: wrap;
     padding: 1rem;
     border-radius: 10px;
-    height: 62vh;
+    height: auto;
 }
 .lista li {
     margin: 0.3rem;
