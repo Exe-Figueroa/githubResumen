@@ -114,7 +114,60 @@
             <li>Ir al Home con cd</li>
             <li>Ejecutar: ssh-add -k ~/.ssh/id_rsa</li>
         </ul>
+    </div>
+        <div class="subtitulos1">
+            <h3>Conexíon a GitHub con SSH</h3>
+            <ul class="lista">
+                <li>Ir al perfil de GitHub</li>
+                <li>Settings</li>
+                <li>Crear llave SSH</li>
+                <li>Pegar llave pública (rsa.pub)</li>
+                <li>Ir al repo remoto</li>
+                <li>Opción CLone or download</li>
+                <li>Copiar el ssh</li>
+                <li>Ir al repo local en la terminal</li>
+                <li>Ejecutar: git remote set-url origin +llave ssh</li>
+                <li>Ejecutar git pull/push</li>
 
+            </ul>
+        </div>
+    <div class="subtitulos1">
+        <h3>Tags y versiones en git y GitHub</h3>
+        <ul class="lista">
+            <li> git log: muestra una lista de los commits realizados en el repo</li>
+            <li>git log --all --graph --decorate --oneline: arma un arbolito detallado y bien bonito con los commits realizados.</li>
+            <li>Alias de un comando: alias + nombre de alias + ="comando"</li>
+            <h3>Crear un tag</h3>
+            <li>Copiar el código del commit</li>
+            <li>Ejecutar: git tag -a + versión + -m + "nombre del commit"</li>
+            <li>git tag: muestra los tags</li>
+            <li>git tag -d + nombre: elimina el tag</li>
+            <li>git push origin :refs/tags/nombre del tag: lo borra del repo de git</li>
+
+        </ul>
+    </div>
+    <div class="subtitulos1">
+        <h3>Manejo de ramas en GitHub</h3>
+        <ul  class="lista">
+            <li>git show-branch: muestra las ramas</li>
+            <li>git show-branch --all: lo mismo pero más detalladas</li>
+            <li>gitk: abre el arbolito en una interfaz visual</li>
+            <li>git push + nombre del branch: envía determinada rama al repo en GitHub</li>
+        </ul>
+    </div>
+    <div class="subtitulos1">
+        <h3>Pull Request</h3>
+        <ul>
+            <li>Estado intermedio antes de enviar un merge</li>
+            <li>Permite que otros miembros del equipo puedan ver mis cambios realizados y aprobarlo para completar el merge. También les permite comentarlo, denegarlo y editarlo.</li>
+            <li>Es una característica de GitHub</li>
+
+        </ul>
+    </div>
+    <div class="subtitulos1">
+        <h3>Sitio público con GitHub Pages</h3>
+        <ul></ul>
+        
     </div>
     </main>
 </body>
