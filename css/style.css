@@ -52,8 +52,10 @@ h3:hover{
     padding: 1rem;
     border-radius: 10px;
     height: auto;
+    list-style: none;
 }
 .lista:hover {
+    border-radius: 2rem 0 2rem 0;
     transform: scale(1.05);
 }
 .lista li {
@@ -65,7 +67,7 @@ h3:hover{
     width: 100%;
 }
 .lista li:hover{
-transform: scale(1.2);
+    transform: scale(1.2);
 }
 span {
     margin: 0.3rem;
