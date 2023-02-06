@@ -7,10 +7,15 @@ html {
     font-size: 62,5%;
 }
 header {
+    transition: transform 0.5s;
     display: flex;
     justify-content: center;
 }
+header:hover {
+    transform: scale(1.2);
+}
 h1 {
+    
     background-color: aqua;
     border-radius: 10px;
     padding: 10px;
@@ -26,6 +31,7 @@ main {
     margin: 0.5rem;
 }
 h3 {
+    transition: transform 0.5s;
     display: flex;
     justify-content: center;
     background-color: pink;
@@ -35,7 +41,11 @@ h3 {
     border-radius: 10px;
     
 }
+h3:hover{
+    transform: scale(1.2);
+}
 .lista {
+    transition: transform 0.5s;
     display: flex;
     background-color: cornflowerblue;
     flex-wrap: wrap;
@@ -43,12 +53,19 @@ h3 {
     border-radius: 10px;
     height: auto;
 }
+.lista:hover {
+    transform: scale(1.05);
+}
 .lista li {
+    transition: transform 0.5s;
     margin: 0.3rem;
     background-color: tomato;
     border-radius: 10px;
     padding: 0.7rem;
     width: 100%;
+}
+.lista li:hover{
+transform: scale(1.2);
 }
 span {
     margin: 0.3rem;
